@@ -9,7 +9,7 @@ function App() {
     <>
       <Navbar />
       
-      <Routes>
+      <Routes basename="/PWA-WEBSITE">
    
         <Route path='/' element={<Home/>} />
         <Route path='/products' element={<Products/>} />
