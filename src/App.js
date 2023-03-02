@@ -11,7 +11,10 @@ function App() {
       
       <Routes basename="/PWA-WEBSITE">
    
-        <Route path='/' element={<Home/>} />
+        {/* <Route path='/' element={<Home/>} />
+        <Route path='/products' element={<Products/>} />
+        <Route path='/products/:id' element={<Product/>} /> */}
+         <Route path='/PWA-WEBSITE' element={<Home/>} />
         <Route path='/products' element={<Products/>} />
         <Route path='/products/:id' element={<Product/>} />
 
