@@ -8,7 +8,7 @@ function App() {
   return (
     <>
       <Navbar />
-      
+      <Home/>
       <Routes basename="/PWA-WEBSITE">
    
         {/* <Route path='/' element={<Home/>} />
